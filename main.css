@@ -1,0 +1,40 @@
+body {
+    font-style: Arial, Sans-serif, serif;
+    font: 400px;
+}
+
+/**********************************************************/
+/*****this is the css for the transparent/opaque navbar****/
+
+.navbar-inverse {
+    background-color: transparent; /***set the navbar to transparent****/
+    border-color: rgba(255,255,255, 0.4);
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    font-size: 20px;
+    background-color: #000;
+}
+/***this is the css for the transition color for your navbar. THIS IS A MUST!****/
+.navbar-fixed-top.scrolled { 
+    background-color: rgba(0,0,0,0.5); /***THE TRANSITION COLOR****/
+    transition: background-color 200ms linear;
+    color: black;
+}
+
+/*********************************************************/
+.header-image {
+    background-color: skyblue;
+    padding: 350px 0px;
+}
